@@ -9,7 +9,6 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Ritik jaiswal</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -19,8 +18,8 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Ritik jaiswal</div>
-        <div class="hamburger-menu">
+        <div class="hamburger-position">
+          <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                   <span></span>
                   <span></span>
@@ -31,6 +30,7 @@
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </ul>
+        </div>
         </div>
     </nav>
     <section id="profile">
@@ -57,19 +57,19 @@
               src="./assets/linkedin.webp"
               alt="My LinkedIn profile"
               class="icon"
-              onclick="location.href='https://linkedin.com/'"
+              onclick="location.href='https://www.linkedin.com/in/ritik-jaiswal-387712203/'"
             />
             <img
               src="./assets/github.webp"
               alt="My Github profile"
               class="icon"
-              onclick="location.href='https://github.com/'"
+              onclick="location.href='https://github.com/ritikjaiswal88'"
             />
           </div>
         </div>
       </section>
       <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
+        <a href="#about"><p class="section__text__p1">Get To Know More</p></a>
         <h1 class="title">About Me</h1>
         <div class="section-container-about">
             <!-- <div class="gooey">
@@ -207,13 +207,21 @@
             />
             <p><a href="mailto:examplemail@gmail.com">ritikjaiswal8839@gmail.com</a></p>
           </div>
-          <div class="contact-info-container">
+          <!-- <div class="contact-info-container">
             <img
               src="./assets/linkedin.webp"
               alt="LinkedIn icon"
               class="icon contact-icon"
             />
             <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div> -->
+          <div class="contact-info-container">
+            <img
+              src="./assets/phone-call.webp"
+              alt="call icon"
+              class="icon contact-icon"
+            />
+            <p><a >8839429135</a></p>
           </div>
         </div>
       </section>

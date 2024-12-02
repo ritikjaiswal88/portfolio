@@ -28,12 +28,14 @@ a,
 /* NAVIGATION */
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
-  height: 17vh;
+  height: 15vh;
+  margin: 0 15rem;
 }
 
 .nav-links {
+
   display: flex;
   gap: 2rem;
   list-style: none;
@@ -64,6 +66,10 @@ a:hover {
 #hamburger-nav{
 display: none;
 
+}
+.hamburger-position{
+ position: absolute;
+ right: 2rem;
 }
 .hamburger-menu {
   position: relative;
@@ -139,14 +145,15 @@ section {
 #profile {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
-  height: 80vh;
+  height: 70vh;
 }
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 45vh;
+  width: 45vh;
   margin: auto 0;
 }
 
@@ -186,7 +193,7 @@ section {
 #about {
   position: relative;
   margin: 0;
-  padding: 5rem 10rem 0 10rem;
+  padding: 4rem 10rem 0 10rem;
   background-color: rgba(226, 230, 231, 0.514);
 }
 
@@ -411,6 +418,11 @@ section {
 
   /* responsive section */
 @media (max-width:600px) {
+  nav {
+    height: 10vh;
+    margin: 0 15rem;
+    padding-top: 1rem;
+  }
 
   /* SECTIONS */
 section {
